@@ -1,0 +1,40 @@
+{
+  "addons": [
+    {
+      "id": "worldmonitor",
+      "name": "World Monitor",
+      "version": "1.0",
+      "summary": "A live globe of world events on the Situation screen and the tablet.",
+      "details": "World Monitor (github.com/koala73/worldmonitor, by Elie Habib, AGPL-3.0, free for personal use) runs beside IRIS in Docker and stays on this computer. Setup downloads and builds it, which takes 10 to 20 minutes the first time.",
+      "size": "about 4 GB",
+      "windows_only": true,
+      "permissions": [
+        "Downloads World Monitor from its own GitHub repository",
+        "Runs it in Docker on this computer only",
+        "Starts Docker Desktop when IRIS starts"
+      ],
+      "needs": [
+        {
+          "command": "docker",
+          "name": "Docker Desktop",
+          "url": "https://www.docker.com/products/docker-desktop/"
+        },
+        {
+          "command": "git",
+          "name": "Git for Windows",
+          "url": "https://git-scm.com/download/win"
+        },
+        {
+          "command": "node",
+          "name": "Node.js 24 LTS",
+          "url": "https://nodejs.org/"
+        }
+      ],
+      "file": "worldmonitor-1.0.zip",
+      "sha256": "db2f5e75b2760accb914bcae33cce74c810ddb134dba2e964612c9a5c912fbb0",
+      "bytes": 2655
+    }
+  ],
+  "published": "2026-11-24T16:44:15Z",
+  "signature": "WJNK6zZ7+D6soyVFWDfMoNygPg9n73IgCChVW21JZ+LWaj6Kyl46V9pZY6lM+BjQ0HeXwMpVEgZcCU5Emn/8Ag=="
+}

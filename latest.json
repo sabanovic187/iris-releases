@@ -1,0 +1,9 @@
+{
+  "version": "2.1.11",
+  "file": "iris-2.1.11.zip",
+  "sha256": "410b37d8d6f32e4928f6cdf3de8912d9b4e49e55f1474484dfd942efba8c8c34",
+  "size": 5610264,
+  "notes": "- Docker starts with IRIS; World Monitor add-on published\n- Add-ons: extra abilities chosen in Settings\n- Self-care: IRIS repairs herself\n- Scenes: Focus, Film, Goodnight, Morning in one sentence\n- Hey IRIS wake word on the computer",
+  "published": "2026-11-24T16:44:15Z",
+  "signature": "UAoIqMBNz8kkbvsQkhgfc/CTfunccwNtuMGWtXm0M3xbm4FYXowWC/P9bCy/F7TpYsnQUOEgENSig2RbVYSjDg=="
+}
